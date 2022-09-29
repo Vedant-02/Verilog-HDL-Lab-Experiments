@@ -16,3 +16,5 @@ The list of experiments mentioned in this repository are as follows:
 - BCD Subtractor
 - Binary Multiplier (3 bit x 3 bit)
 - Barrel Shifter
+- 32-bit ALU
+- Priority encoder
