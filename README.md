@@ -14,3 +14,4 @@ The list of experiments mentioned in this repository are as follows:
 - 32-bit fast adders (carry look ahead, carry skip, carry select)
 - BCD Adder
 - BCD Subtractor
+- Binary Multiplier (3 bit x 3 bit)
