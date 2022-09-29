@@ -7,6 +7,7 @@ The list of experiments mentioned in this repository are as follows:
 - Four bit Parallel adder
 - Binary to Gray code converter
 - Gray to binary code converter
+- Binary to BCD converter
 - BCD to 7-segment display decoder
 - Four bit Adder-Subtractor
 - Four bit Comparator
