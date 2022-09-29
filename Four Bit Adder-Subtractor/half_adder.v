@@ -5,7 +5,7 @@
 // 
 // Create Date: 04.02.2022 19:14:06
 // Design Name: 
-// Module Name: half_add
+// Module Name: half_adder
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -21,7 +21,7 @@
 //Lab-3: By Vedant A Sontake(B20EE095) 
 //Work 1:Modify the Four Bit Adder created in Lab 1 to implement an Adder-Subtractor Unit.
 
-module half_add(a,b,s,c);
+module half_adder(a,b,s,c);
 input [3:0]a,b;
 output s,c;
 assign s=a^b;       //sum gives the output as xor of the 2 inputs in half adder
