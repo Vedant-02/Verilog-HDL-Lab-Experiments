@@ -31,10 +31,10 @@ output [3:0]s;
 //carry of each full adder is passed as input to the next full adder
 wire c0,c,c1,c2,c3,ovf;
 assign c0=1'b1;                     //c0=1 because subtractor 
-FA_add_sub F1(a[0],b[0]^c0,c0,s[0],c1);
-FA_add_sub F2(a[1],b[1]^c0,c1,s[1],c2);
-FA_add_sub F3(a[2],b[2]^c0,c2,s[2],c3);
-FA_add_sub F4(a[3],b[3]^c0,c3,s[3],c);
+full_adder F1(a[0],b[0]^c0,c0,s[0],c1);
+full_adder F2(a[1],b[1]^c0,c1,s[1],c2);
+full_adder F3(a[2],b[2]^c0,c2,s[2],c3);
+full_adder F4(a[3],b[3]^c0,c3,s[3],c);
 assign ovf=c^s[3];
 always @(*)
     begin
