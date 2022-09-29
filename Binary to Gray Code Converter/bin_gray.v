@@ -5,7 +5,7 @@
 // 
 // Create Date: 24.01.2022 00:33:12
 // Design Name: 
-// Module Name: bin_gray_bin
+// Module Name: bin_gray
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -22,7 +22,7 @@
 //By Vedant A Sontake(B20EE095)
 //lab-2 Work:1a-Write a program to implement binary gray converter
 
-module bin_gray_bin(bn,gry);
+module bin_gray(bn,gry);
 input [3:0]bn;
 output [3:0]gry;
 
