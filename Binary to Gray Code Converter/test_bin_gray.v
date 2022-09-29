@@ -26,7 +26,7 @@ module test_bin_gray;
 reg [3:0]bn;
 wire [3:0]gry;
 
-bin_gray_bin B1(bn,gry);
+bin_gray B1(bn,gry);
 
 initial
  begin
