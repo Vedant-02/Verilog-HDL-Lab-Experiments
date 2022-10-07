@@ -18,3 +18,4 @@ The list of experiments mentioned in this repository are as follows:
 - Barrel Shifter
 - 32-bit ALU
 - Priority encoder
+- D flip-flop(synchronous & asynchronous reset)
