@@ -1,6 +1,6 @@
 # Half Adder
 ## Introduction
-Half adder is a combinational arithmetic circuit that adds two numbers ( a , b ) and produces a sum bit ( s ) and carry bit ( c ) as the output.
+Half adder is a combinational arithmetic circuit that adds two numbers ( a , b ) and produces a sum bit ( s ) and carry bit ( c ) as the output. This directory contains implementation of half adder circuit using verilog for 2 inputs a and b.
 
 ## Truth Table
 
