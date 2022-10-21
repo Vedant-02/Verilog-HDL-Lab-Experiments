@@ -19,3 +19,6 @@ The list of experiments mentioned in this repository are as follows:
 - 32-bit ALU
 - Priority encoder
 - D flip-flop(synchronous & asynchronous reset)
+
+## License
+[MIT License](LICENSE)
